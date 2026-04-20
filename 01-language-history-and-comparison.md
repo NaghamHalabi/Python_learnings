@@ -15,14 +15,14 @@ Perl was explicitly created because Awk couldn't handle complex tasks and shell 
 
 ## Quick Comparison
 
-| Aspect | Shell/Batch | Awk | Perl | Python |
-|--------|-------------|-----|------|--------|
-| **Primary use** | System automation, glue | Text processing | Text processing, sysadmin | General purpose |
-| **Era** | 1970s (sh), 1980s (batch) | 1977 | 1987 | 1991 |
-| **Typing** | Everything is a string | Strings + numbers | Weak, dynamic | Strong, dynamic |
-| **Data structures** | Basically none | Arrays, associative arrays | Arrays, hashes, refs | Lists, dicts, sets, classes |
-| **Error handling** | Exit codes | Minimal | `eval`/`die` | Exceptions |
-| **Readability** | Low (complex scripts) | Medium (terse) | Low ("write-only") | High (explicit design goal) |
+| Aspect              | Shell/Batch               | Awk                        | Perl                      | Python                      |
+| ------------------- | ------------------------- | -------------------------- | ------------------------- | --------------------------- |
+| **Primary use**     | System automation, glue   | Text processing            | Text processing, sysadmin | General purpose             |
+| **Era**             | 1970s (sh), 1980s (batch) | 1977                       | 1987                      | 1991                        |
+| **Typing**          | Everything is a string    | Strings + numbers          | Weak, dynamic             | Strong, dynamic             |
+| **Data structures** | Basically none            | Arrays, associative arrays | Arrays, hashes, refs      | Lists, dicts, sets, classes |
+| **Error handling**  | Exit codes                | Minimal                    | `eval`/`die`              | Exceptions                  |
+| **Readability**     | Low (complex scripts)     | Medium (terse)             | Low ("write-only")        | High (explicit design goal) |
 
 ---
 
@@ -55,10 +55,10 @@ done
 
 ### Shell vs Batch
 
-| Term | Platform | Examples |
-|------|----------|----------|
-| Shell | Unix/Linux/macOS | bash, zsh, sh, fish |
-| Batch | Windows | `.bat`, `.cmd`, PowerShell |
+| Term  | Platform         | Examples                   |
+| ----- | ---------------- | -------------------------- |
+| Shell | Unix/Linux/macOS | bash, zsh, sh, fish        |
+| Batch | Windows          | `.bat`, `.cmd`, PowerShell |
 
 They serve the same role: automating system tasks, running programs, gluing tools together.
 
@@ -139,4 +139,4 @@ print(df.groupby("category").sum())
 Coming from PHP, Python will feel familiar — both emerged as "better Perl" for different domains (web vs general). The key difference:
 
 - **PHP**: Web-first, request/response model baked in
-- **Python**: General-purpose, web is just one library choice!
+- **Python**: General-purpose, web is just one library choice!!
