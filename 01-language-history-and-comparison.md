@@ -139,4 +139,4 @@ print(df.groupby("category").sum())
 Coming from PHP, Python will feel familiar — both emerged as "better Perl" for different domains (web vs general). The key difference:
 
 - **PHP**: Web-first, request/response model baked in
-- **Python**: General-purpose, web is just one library choice!!
+- **Python**: General-purpose, web is just one library choice!
